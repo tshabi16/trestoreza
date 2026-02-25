@@ -4,7 +4,7 @@ import Buttons from "../components/Buttons";
 function Recomm({ handleClick }) {
   return (
     <div>
-      <h2 className="recomm-title">Recommeneded</h2>
+      <h2 className="text-3xl font-black uppercase tracking-wider">Recommended</h2>
       <div className="recomm-flex">
         <Buttons onClickhandler={handleClick} value="" title="All Products" />
         <Buttons onClickhandler={handleClick} value="Nike" title="Nike" />
