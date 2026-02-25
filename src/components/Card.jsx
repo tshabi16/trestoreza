@@ -7,7 +7,7 @@ function Card({ id, img, title, star, reviews, prevPrice, newPrice }) {
 
   const cartItemCount = cartItems[id];
   return (
-    <section className="card">
+<section className="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-5 m-4 transition-all duration-300 hover:scale-105 hover:bg-white/10 hover:shadow-[0_0_20px_rgba(255,255,255,0.05)]">
       <img src={img} alt={title} className="card-img" />
       <div className="card-details">
         <h4 className="card-title">{title}</h4>
