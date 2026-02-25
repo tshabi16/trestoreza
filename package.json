@@ -1,6 +1,7 @@
 {
   "name": "ecom-site",
   "private": true,
+  "base": "./"
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -25,4 +26,5 @@
     "eslint-plugin-react-refresh": "^0.4.3",
     "vite": "^4.4.5"
   }
+  
 }
