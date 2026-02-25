@@ -71,12 +71,15 @@ function Temapp() {
 
   const result = filteredData(newProducts, selectedCategory, qry);
 
-  return (
+return (
     <>
       <Sidebar handleChange={handleChange} />
-      <Nav query={qry} handleInputChange={handleInputChange} />
-      <Recomm handleClick={handleClick} />
-      <Products result={result} />
+      {/* Add this wrapper div */}
+      <div className="ml-[20%] min-h-screen bg-[#0a0a0a]">
+        <Nav query={qry} handleInputChange={handleInputChange} />
+        <Recomm handleClick={handleClick} />
+        <Products result={result} />
+      </div>
     </>
   );
 }
