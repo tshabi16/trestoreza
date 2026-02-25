@@ -14,3 +14,19 @@ a {
 li {
   list-style: none;
 }
+/* Custom glass effect overrides */
+.card {
+  background: transparent !important; 
+  border: none !important;
+}
+
+.card-title {
+  font-weight: 900;
+  letter-spacing: -0.5px;
+  color: #f5f5f5;
+}
+
+.price {
+  font-weight: 700;
+  color: #00ff88; /* Optional: Neon green for the price to make it pop */
+}
